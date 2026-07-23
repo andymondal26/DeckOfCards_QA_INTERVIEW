@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70418847-532D-4403-BF80-E6E5049E1B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards.Client", "src\DeckOfCards.Client\DeckOfCards.Client.csproj", "{1D502E99-A4E8-4F11-9DDF-2B19EB0F5B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{297D429A-ABBB-42D3-AEEF-9E8A0F7A0D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards.Tests", "tests\DeckOfCards.Tests\DeckOfCards.Tests.csproj", "{3B8C7CF9-8059-4FFA-B833-ED607F017041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D502E99-A4E8-4F11-9DDF-2B19EB0F5B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D502E99-A4E8-4F11-9DDF-2B19EB0F5B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D502E99-A4E8-4F11-9DDF-2B19EB0F5B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D502E99-A4E8-4F11-9DDF-2B19EB0F5B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8C7CF9-8059-4FFA-B833-ED607F017041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8C7CF9-8059-4FFA-B833-ED607F017041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8C7CF9-8059-4FFA-B833-ED607F017041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8C7CF9-8059-4FFA-B833-ED607F017041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D502E99-A4E8-4F11-9DDF-2B19EB0F5B10} = {70418847-532D-4403-BF80-E6E5049E1B59}
+		{3B8C7CF9-8059-4FFA-B833-ED607F017041} = {297D429A-ABBB-42D3-AEEF-9E8A0F7A0D3C}
+	EndGlobalSection
+EndGlobal
