@@ -1,0 +1,16 @@
+[project]
+name = "deckofcards"
+version = "0.1.0"
+description = "Senior QA API testing exercise (Python) against the Deck of Cards API"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.32,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v"

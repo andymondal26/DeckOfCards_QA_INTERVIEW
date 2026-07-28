@@ -1,31 +1,16 @@
-## Build
-[Dd]ebug/
-[Rr]elease/
-[Bb]in/
-[Oo]bj/
-*.user
-*.suo
-*.userprefs
-.vs/
+# This is a polyglot repo. Language-specific ignores live in each language
+# folder's own .gitignore (csharp/, python/, typescript/). Keep this file for
+# things that apply repo-wide.
+
+# Editors / IDEs
 .idea/
-*.DotSettings.user
+.vscode/
+*.swp
 
-## Test results
-TestResults/
-*.trx
-*.coverage
-*.coveragexml
-
-## OS
+# OS
 .DS_Store
 Thumbs.db
 
-## Interviewer notes (local copy)
+# Interviewer notes (local copy — never commit)
 INTERVIEWER.md
-
-## NuGet
-*.nupkg
-*.snupkg
-project.lock.json
-project.fragment.lock.json
-artifacts/
+**/INTERVIEWER.md
