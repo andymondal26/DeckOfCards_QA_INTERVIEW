@@ -4,7 +4,7 @@ Test the [Deck of Cards API](https://deckofcardsapi.com/) through the provided `
 
 > New here? Read the [repository overview](../README.md) first — it explains the exercise, the ground rules, and what we're evaluating. This file only covers the C#-specific setup.
 
-**Prerequisites:** .NET 8 SDK, internet access
+**Prerequisites:** .NET 8 SDK or later, internet access
 
 > **Suggested time:** ~30-45 minutes.
 
@@ -18,7 +18,7 @@ dotnet test
 
 Expect **3 passing** example tests and **4 skipped** exercises.
 
-> **SDK note:** `global.json` pins a specific .NET 8 SDK version. Any installed `8.0.x` SDK works — if you hit an SDK-not-found error, install a .NET 8 SDK or relax the `version` / set `"rollForward": "latestFeature"` in `global.json`.
+> **SDK note:** .NET 8 or newer works. `global.json` sets 8.0 as the minimum and rolls forward to the latest SDK you have installed (8, 10, and so on). The tests target `net8.0` and run on that runtime, or on a newer one if .NET 8 is not installed.
 
 ## Project layout
 
