@@ -29,6 +29,6 @@ def test_draw_cards_each_card_has_expected_shape(client):
     assert len(draw.cards) == 1
     card = draw.cards[0]
 
-    assert re.match(r"^[2-9TJQKA][SHDC]$", card.code)
+    assert re.match(r"^[02-9TJQKA][SHDC]$", card.code)
     assert card.suit in {"SPADES", "HEARTS", "DIAMONDS", "CLUBS"}
     assert card.image.startswith("https://deckofcardsapi.com/static/img/")

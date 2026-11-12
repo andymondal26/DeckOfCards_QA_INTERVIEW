@@ -39,7 +39,7 @@ public class DeckLifecycleTests
         var draw = await _client.DrawCardsAsync(deck.DeckId, count: 1);
         var card = draw.Cards.Single();
 
-        card.Code.Should().MatchRegex("^[2-9TJQKA][SHDC]$");
+        card.Code.Should().MatchRegex("^[02-9TJQKA][SHDC]$");
         card.Suit.Should().BeOneOf("SPADES", "HEARTS", "DIAMONDS", "CLUBS");
         card.Image.Should().StartWith("https://deckofcardsapi.com/static/img/");
     }

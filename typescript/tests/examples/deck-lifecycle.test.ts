@@ -30,7 +30,7 @@ describe('Deck lifecycle (worked examples)', () => {
     expect(draw.cards).toHaveLength(1);
     const card = draw.cards[0]!;
 
-    expect(card.code).toMatch(/^[2-9TJQKA][SHDC]$/);
+    expect(card.code).toMatch(/^[02-9TJQKA][SHDC]$/);
     expect(['SPADES', 'HEARTS', 'DIAMONDS', 'CLUBS']).toContain(card.suit);
     expect(card.image.startsWith('https://deckofcardsapi.com/static/img/')).toBe(true);
   });
